@@ -1,4 +1,4 @@
-# Smart-Parking-System
+# Smart Parking System
 
 ## Introduction
 Now a days in many multiplex systems there is a severe problem for car parking systems .There are many lanes for car parking, so to park a car one has to look for the all lanes. Moreover there is a lot of men labour involved for this process for which there is lot of investment. So the need is to develop a system which indicates directly which lane is vacant.
@@ -13,3 +13,12 @@ So the project objective is to develop a system to indicate the vacant lane. The
 -	Bread board.
 -	Resistors.
 -	Jumping wires.
+
+## Working
+We are going to use Infra Red transmitters and Receivers for each parking slot. The IR Receivers are connected to Arduino. For controller purpose we are going to use arduino. IR rays are obstructed when a car is parked in any parking slot. Thus Arduino will come to know that which slot is empty and which slot is full.
+
+We have chosen IR module instead of RF module because we want a receiver having line of sight communication with the transmitter. But RF does not require line of sight communication. And in case of LDR, there is scope for false triggering due to sunlight or headlight of car. So considering all these points we have finalized to use IR module.
+
+Each car has an LDR so that it can follow while glowing LED’s. The car moves to the slot which is nearest to it. LED’s are installed at the entrance of all parking slots and the empty slot is indicated by the respective glowing LED.
+
+
