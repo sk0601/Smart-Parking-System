@@ -26,4 +26,11 @@ Each car has an LDR so that it can follow while glowing LED’s. The car moves t
 -	This project can be used for parking system in any shopping mall, multiplex.
 -	 Can be used for industries, commercial offices and educational institutes.
 
+## Conclusion
+In view of the above description Automatic Car Parking System is an important factor in traffic areas and is essential to overcome severe problems facing for car parking. 
+Besides being cost effective we also induce other benefits such as:
+-	Customer friendly secured parking.
+-	Pollution control.
+Thus this technology provides human hassle free parking.
+
 
