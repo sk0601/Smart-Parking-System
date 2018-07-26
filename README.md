@@ -21,4 +21,9 @@ We have chosen IR module instead of RF module because we want a receiver having 
 
 Each car has an LDR so that it can follow while glowing LED’s. The car moves to the slot which is nearest to it. LED’s are installed at the entrance of all parking slots and the empty slot is indicated by the respective glowing LED.
 
+## Application
+-	Can be used in IOT(Internet Of Things) as a smart parking system and in AID to Google Self - Drive car(Google Self Drive car works on the principle of LIDAR by mapping and monitoring movement of vehicles & people around it. But it is not possible in a parking area. So just like an autopilot in a plane we propose to introduce auto drive feature as an AID to Google - Self Drive car in such areas).  
+-	This project can be used for parking system in any shopping mall, multiplex.
+-	 Can be used for industries, commercial offices and educational institutes.
+
 
